@@ -1,0 +1,17 @@
+.header {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  background-color: $secondary-color; 
+
+  &__container {
+    @include container;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
