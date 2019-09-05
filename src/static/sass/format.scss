@@ -1,0 +1,32 @@
+.format {
+
+  &__container {
+    @include container;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    margin: 1rem 0;
+  }
+
+  &__descr {
+    margin-left: 0.5rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  &__img {
+    min-width: 102px;
+    height: 62px;
+    border-radius: 50%;
+  }
+
+}
