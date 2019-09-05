@@ -10,29 +10,34 @@
   }
 
   &__item {
-    display: flex;
-    margin: 1rem 0;
+    margin: 0.6rem 0;
+
+    &-wrap {
+      display: flex;
+    } 
+
+    &-descr {
+      margin-left: 0.5rem;
+    }
+
+    &-title {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    &-img {
+      min-width: 102px;
+      height: 62px;
+      border-radius: 50%;
+    }
   }
 
-  &__descr {
-    margin-left: 0.5rem;
-  }
-
-  &__title {
-    text-align: center;
-    margin-top: 2rem;
-  }
-
-  &__img {
-    min-width: 102px;
-    height: 62px;
-    border-radius: 50%;
-  }
 
   &__btn {
     font-size: 1rem;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 40px;
     width: 174px;
     @include btn-shadow;
   }

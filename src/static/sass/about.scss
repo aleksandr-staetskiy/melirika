@@ -1,0 +1,25 @@
+.about {
+  position: relative;
+  background-color: $secondary-color;
+
+  &__photo {
+    position: absolute;
+    width: calc(50% - 1rem);
+    height: 100%;
+    background: url(../../static/img/lirika-about-mob.jpg)no-repeat center center;
+  }
+
+  &__container {
+    @include container;
+  }
+
+  &__information {
+    color: $white;
+    margin-left: auto;
+    width: calc(50% - 1rem);
+  }
+
+  &__descr {
+    font-size: 0.8rem;
+  }
+}
