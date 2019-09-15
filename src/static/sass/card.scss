@@ -1,0 +1,64 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 320px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+
+  &__head {
+    position: relative;
+    min-height: 104px;
+  }
+
+  &__title {
+    color: darken($white,5%);
+    position: absolute;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    bottom: -10px;
+    left: 15px;
+  }
+
+  &__body {
+    padding: 11px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    margin-top: 13px;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      padding-right: 15px;
+      background: url(../../static/img/check.svg) no-repeat;
+    }
+  }
+
+  &__bottom {
+    text-align: center;
+  }
+
+  &__price {
+    display: block;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+  }
+
+  &__btn {
+    margin: 0 auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}

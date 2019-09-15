@@ -29,7 +29,7 @@ html(lang="en")
 
     section.format
       .format__container
-        h2.title.format__title Формат обучения
+        h2.title Формат обучения
         .format__wrap
           .format__item 
             .format__item-wrap
@@ -66,25 +66,61 @@ html(lang="en")
       .about__photo
       .about__container 
         .about__information
-          h3.title.about__title О трененре
+          h3.about__title О трененре
           .about__descr
             p «Салют! Меня зовут Лирика! Я танцую и преподаю уже больше 7 лет.
             p Мой курс включает не только занятия по танцевальному направлению, но и комплекс силовых тренировок с растяжкой. По своему опыту знаю: чтобы танцевать, нужно иметь особую физподготовку и хорошую пластику. 
               | Поэтому готова делиться самыми эффективными тренировками! 
             P Видео-курсы я успешно веду уже больше 1 года. В общей сложности, его прошли около 1000 человек, и я приглашаю тебя тренироваться вместе со мной!»
           
-    sect.courses
+    section.courses
       .courses__container
+        h4.title Курсы
         .slider
           .slider__item
-            .slider__item-wrap
-              .slider__item-head
-              .slider__item-body
+            article.card
+              .card__head
+                img.card__img(src="./static/img/card-1.jpg", alt="lirika")
+                h3.card__title twerk
+              .card__body
+                ul.card__list
+                  li.card__item Техника TWERK
+                  li.card__item Чат с тренером и участниками
+                  li.card__item Online-поддержка от тренера
+                .card__bottom
+                  span.card__price 1500 р
+                  button.btn.card__btn Записаться на курс
+    
+          .slider__item
+            article.card
+              .card__head
+                img.card__img(src="./static/img/card-1.jpg", alt="lirika")
+                h3.card__title twerk
+              .card__body
+                ul.card__list
+                  li.card__item Техника TWERK
+                  li.card__item Чат с тренером и участниками
+                  li.card__item Online-поддержка от тренера
+                .card__bottom
+                  span.card__price 1500 р
+                  button.btn.card__btn Записаться на курс
 
           .slider__item
-            .slider__item-wrap
-              .slider__item-head
-              .slider__item-body
+            article.card
+              .card__head
+                img.card__img(src="./static/img/card-1.jpg", alt="lirika")
+                h3.card__title twerk
+              .card__body
+                ul.card__list
+                  li.card__item Техника TWERK
+                  li.card__item Чат с тренером и участниками
+                  li.card__item Online-поддержка от тренера
+                .card__bottom
+                  span.card__price 1500 р
+                  button.btn.card__btn Записаться на курс
+
+
+        
             
 
 

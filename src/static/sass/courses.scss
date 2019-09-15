@@ -1,0 +1,10 @@
+.courses {
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    text-align: center;
+  }
+}

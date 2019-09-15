@@ -177,3 +177,14 @@ ol {
 li {
   line-height: inherit;
 }
+
+// fixing bug with spaces
+
+.slick-slide {
+  margin-left:27px;
+}
+
+/* the parent */
+.slick-list {
+  margin-left:-27px;
+}
